@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace NoteApp.Core.Entities
 {
-    class Note : BaseEntity
+    public class Note : BaseEntity
     {
         [Required]
         public string Title { get; set; }
@@ -22,7 +23,7 @@ namespace NoteApp.Core.Entities
             IsCompleted = iscompleted;
                 
         }
-        private Note()
+        public Note()
         {
 
         }

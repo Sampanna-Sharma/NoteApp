@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NoteApp.Core.Entities
 {
-    class BaseEntity
+    public class BaseEntity
     {
         public int Id;
     }
