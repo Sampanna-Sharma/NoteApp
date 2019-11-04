@@ -9,6 +9,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Humanizer" Version="2.7.9" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\NoteApp.Core\NoteApp.Core.csproj" />
     <ProjectReference Include="..\NoteApp.Infrastructure\NoteApp.Infrastructure.csproj" />
   </ItemGroup>

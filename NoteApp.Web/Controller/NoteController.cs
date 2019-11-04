@@ -17,7 +17,7 @@ namespace AspNetCoreTodo.Controllers
             _notesService = notesService;
 
         }
-        public async Task<IActionResult> IndexAsync(){
+        public async Task<IActionResult> Index(){
         var items = await _notesService.GetIncompleteItemsAsync();
             var model = new NoteViewModel()
             {
