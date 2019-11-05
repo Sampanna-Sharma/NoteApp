@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using NoteApp.Core.Entities;
-using NoteApp.Core.Services;
+using NoteApp.Infrastructure.Services;
 
 namespace AspNetCoreTodo.Controllers
 {

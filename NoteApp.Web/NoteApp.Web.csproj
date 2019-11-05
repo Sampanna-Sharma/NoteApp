@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <StartupObject>NoteApp.Web.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,6 +11,10 @@
 
   <ItemGroup>
     <PackageReference Include="Humanizer" Version="2.7.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>

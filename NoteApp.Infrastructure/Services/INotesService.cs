@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NoteApp.Core.Services
+namespace NoteApp.Infrastructure.Services
 {
     public interface INotesService
     {

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace NoteApp.Core.Entities
 {
-    public class Note : BaseEntity
+    public class Note
     {
         [Required]
         public string Title { get; set; }
@@ -14,6 +14,7 @@ namespace NoteApp.Core.Entities
         public bool IsCompleted { get; set; }
         public DateTimeOffset? TimeToComplete {get; set;}
         public Guid UserId {get; set;}
+        public Guid Id { get; set; }
 
         public Note(string title, string details, DateTime createdDate, bool iscompleted)
         {
@@ -25,6 +26,7 @@ namespace NoteApp.Core.Entities
         }
         public Note()
         {
+            Id = Guid.NewGuid();
 
         }
 

@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NoteApp.Core.Entities;
 
-namespace NoteApp.Core.Services
+namespace NoteApp.Infrastructure.Services
 {
     public class FakeNotesService : INotesService
     {
